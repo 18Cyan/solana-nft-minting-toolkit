@@ -14,7 +14,8 @@ node scripts/generate-keypair.js
 npm run mint-image
 npm run mint-audio
 npm run mint-mixed
-📁 Project Structure
+
+- Project Structure-
 .
 ├── scripts/
 │   ├── generate-keypair.js
