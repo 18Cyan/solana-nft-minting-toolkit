@@ -1,10 +1,3 @@
-很好！现在我们来创建 examples/ 文件夹和示例代码：
-📂 第四步：创建 examples/ 文件夹和示例
-9. 创建 examples/image-nft.js
-
-创建新文件： examples/image-nft.js
-内容：
-
 javascript// image-nft.js - Complete example of image NFT minting
 import { create, mplCore } from '@metaplex-foundation/mpl-core'
 import {
