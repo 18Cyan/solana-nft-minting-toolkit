@@ -1,0 +1,37 @@
+{
+  "name": "solana-nft-minting-toolkit",
+  "version": "1.0.0",
+  "description": "Personal toolkit for minting NFTs on Solana using Metaplex Core and Irys",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node scripts/generate-keypair.js",
+    "mint-image": "node scripts/mint-image.js",
+    "mint-audio": "node scripts/mint-audio.js", 
+    "mint-mixed": "node scripts/mint-mixed.js",
+    "upload-only": "node scripts/upload-only.js",
+    "test": "echo \"Run npm run setup first, then try minting scripts\""
+  },
+  "keywords": [
+    "solana",
+    "nft",
+    "metaplex",
+    "irys",
+    "arweave",
+    "web3"
+  ],
+  "author": "Shiyu",
+  "license": "MIT",
+  "dependencies": {
+    "@irys/js": "^0.0.2",
+    "@metaplex-foundation/mpl-core": "*",
+    "@metaplex-foundation/umi": "^1.2.0",
+    "@metaplex-foundation/umi-bundle-defaults": "*",
+    "@metaplex-foundation/umi-uploader-irys": "*",
+    "@solana/web3.js": "^1.95.0",
+    "viem": "^2.30.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
