@@ -1,3 +1,55 @@
+# Solana NFT Project .gitignore
+
+# Sensitive wallet files
+solana-keypair.json
+my-eth-wallet.json
+*.json
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Personal media files (optional - uncomment if you don't want to share)
+# assets/
+# *.jpg
+# *.png
+# *.mp3
+# *.mp4
+# *.html
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Build outputs
+dist/
+build/
 # Logs
 logs
 *.log
